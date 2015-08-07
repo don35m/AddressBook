@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Contact List</title>
+</head>
+<body>
+    <h1>Contact List</h1>
+
+     {% if contacts is not empty %}
+          <p>Here are all your Contacts:</p>
+          <ul>
+              {% for contact in contacts %}
+                  <li> {{ contact.getName }} </li>
+                  <li>{{ contact.getPhone }} </li>
+                  <li>{{ contact.getAddress }} </li>
+              {% endfor %}
+          </ul>
+     {% endif %}
+
+     <form action='/contacts' method='post'>
+         <label for='name'>Contact name</label>
+         <input id='name' name='name' type='text'>
+
+         <label for='phone'>Contact phone</label>
+         <input id='phone' name='phone' type='number'>
+
+         <label for='address'>Contact address</label>
+         <input id='address' name='address' type='text'>
+
+
+         <button type='submit'>Add Contact</button>
+     </form>
+
+     <form action='/delete_contact' method='post'>
+         <button type='submit'>Clear</button>
+     </form>
+</body>
+</html>
