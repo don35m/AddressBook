@@ -1,16 +1,16 @@
-# _{Application Name}_
+# _Address Book_
 
-##### _{Brief description of application}, {Date of current version}_
+##### _Contact list with name, phone and address, 8/7/15_
 
-#### By _**{List of contributors}**_
+#### By _**Don Schemmel**_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+_Makes an address book using Silex and Twig_
 
 ## Setup
 
-* _This is a great place_
+* _Clone this repository._
 * _to list setup instructions_
 * _in a simple_
 * _easy-to-understand_
