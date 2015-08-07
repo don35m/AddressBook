@@ -11,22 +11,27 @@ _Makes an address book using Silex and Twig_
 ## Setup
 
 * _Clone this repository._
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Start PHP server in web directory._
+* _Open web browser to localhost:8000/_
 
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+
+
+
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+Silex
+
+PHP
+
+Twig
+
+HTML
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
 
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_Don Schemmel_**
 
 This software is licensed under the MIT license.
 
