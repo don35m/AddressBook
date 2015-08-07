@@ -1,12 +1,15 @@
 <html>
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <title>Contact List</title>
 </head>
 <body>
-    <h1>You created a contact!</h1>
-    <p>{{ newcontact.getName }}</p>
-    <p>{{ newcontact.getPhone }}</p>
-    <p>{{ newcontact.getAddress }}</p>
-    <p><a href='/'>View your list of contacts.</a></p>
+    <div class='container'>
+        <h1>You created a contact!</h1>
+        <p>NAME: {{ newcontact.getName }}</p>
+        <p>PHONE: {{ newcontact.getPhone }}</p>
+        <p>ADDRESS: {{ newcontact.getAddress }}</p>
+        <p><a href='/'>View your list of contacts.</a></p>
+    </div>
 </body>
 </html>
